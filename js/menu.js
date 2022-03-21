@@ -13,7 +13,6 @@ menuLinks.forEach((link) => {
 });
 
 document.addEventListener("click", (event) => {
-
   if (
     !(event.target.closest(".menu") || event.target.closest(".humburger-menu"))
   ) {
